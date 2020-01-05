@@ -12,7 +12,7 @@ namespace UnitTestMiniMaze
         {
             var pointA = new Point(0,0);
             var pointB = new Point(0,1);
-            //test
+
             var maze = new Maze();
 
             Assert.IsTrue(maze.AreNeighBours(pointA,pointB));
